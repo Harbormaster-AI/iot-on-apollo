@@ -45,266 +45,266 @@ type Query {
 
     health: String!
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # DeviceVendor
 # -----------------------------------------
     deviceVendor(id: ID!): DeviceVendor
     deviceVendors: DeviceVendorQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # HardwareModule
 # -----------------------------------------
     hardwareModule(id: ID!): HardwareModule
     hardwareModules: HardwareModuleQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # DeviceModel
 # -----------------------------------------
     deviceModel(id: ID!): DeviceModel
     deviceModels: DeviceModelQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # FirmwareRelease
 # -----------------------------------------
     firmwareRelease(id: ID!): FirmwareRelease
     firmwareReleases: FirmwareReleaseQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # IoTDevice
 # -----------------------------------------
     ioTDevice(id: ID!): IoTDevice
     ioTDevices: IoTDeviceQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # SensorInstance
 # -----------------------------------------
     sensorInstance(id: ID!): SensorInstance
     sensorInstances: SensorInstanceQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # ActuatorInstance
 # -----------------------------------------
     actuatorInstance(id: ID!): ActuatorInstance
     actuatorInstances: ActuatorInstanceQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # TelemetrySchema
 # -----------------------------------------
     telemetrySchema(id: ID!): TelemetrySchema
     telemetrySchemas: TelemetrySchemaQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # TelemetryStream
 # -----------------------------------------
     telemetryStream(id: ID!): TelemetryStream
     telemetryStreams: TelemetryStreamQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # CommandDefinition
 # -----------------------------------------
     commandDefinition(id: ID!): CommandDefinition
     commandDefinitions: CommandDefinitionQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # CommandInvocation
 # -----------------------------------------
     commandInvocation(id: ID!): CommandInvocation
     commandInvocations: CommandInvocationQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # AlertRule
 # -----------------------------------------
     alertRule(id: ID!): AlertRule
     alertRules: AlertRuleQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # Alert
 # -----------------------------------------
     alert(id: ID!): Alert
     alerts: AlertQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # Tenant
 # -----------------------------------------
     tenant(id: ID!): Tenant
     tenants: TenantQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # TenantUser
 # -----------------------------------------
     tenantUser(id: ID!): TenantUser
     tenantUsers: TenantUserQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # Site
 # -----------------------------------------
     site(id: ID!): Site
     sites: SiteQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # Building
 # -----------------------------------------
     building(id: ID!): Building
     buildings: BuildingQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # Floor
 # -----------------------------------------
     floor(id: ID!): Floor
     floors: FloorQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # Room
 # -----------------------------------------
     room(id: ID!): Room
     rooms: RoomQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # Gateway
 # -----------------------------------------
     gateway(id: ID!): Gateway
     gateways: GatewayQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # EdgeApplication
 # -----------------------------------------
     edgeApplication(id: ID!): EdgeApplication
     edgeApplications: EdgeApplicationQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # NetworkProfile
 # -----------------------------------------
     networkProfile(id: ID!): NetworkProfile
     networkProfiles: NetworkProfileQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # SimCard
 # -----------------------------------------
     simCard(id: ID!): SimCard
     simCards: SimCardQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # ConnectivityPlan
 # -----------------------------------------
     connectivityPlan(id: ID!): ConnectivityPlan
     connectivityPlans: ConnectivityPlanQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # MessagingEndpoint
 # -----------------------------------------
     messagingEndpoint(id: ID!): MessagingEndpoint
     messagingEndpoints: MessagingEndpointQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # AccessPolicy
 # -----------------------------------------
     accessPolicy(id: ID!): AccessPolicy
     accessPolicys: AccessPolicyQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # ApiKey
 # -----------------------------------------
     apiKey(id: ID!): ApiKey
     apiKeys: ApiKeyQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # DeviceCertificate
 # -----------------------------------------
     deviceCertificate(id: ID!): DeviceCertificate
     deviceCertificates: DeviceCertificateQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # ProvisioningRecord
 # -----------------------------------------
     provisioningRecord(id: ID!): ProvisioningRecord
     provisioningRecords: ProvisioningRecordQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # DigitalTwin
 # -----------------------------------------
     digitalTwin(id: ID!): DigitalTwin
     digitalTwins: DigitalTwinQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # TwinTemplate
 # -----------------------------------------
     twinTemplate(id: ID!): TwinTemplate
     twinTemplates: TwinTemplateQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # TwinChangeEvent
 # -----------------------------------------
     twinChangeEvent(id: ID!): TwinChangeEvent
     twinChangeEvents: TwinChangeEventQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # MaintenanceTicket
 # -----------------------------------------
     maintenanceTicket(id: ID!): MaintenanceTicket
     maintenanceTickets: MaintenanceTicketQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # DataRetentionPolicy
 # -----------------------------------------
     dataRetentionPolicy(id: ID!): DataRetentionPolicy
     dataRetentionPolicys: DataRetentionPolicyQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # SoftwareUpdateCampaign
 # -----------------------------------------
     softwareUpdateCampaign(id: ID!): SoftwareUpdateCampaign
     softwareUpdateCampaigns: SoftwareUpdateCampaignQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # SoftwareUpdateExecution
 # -----------------------------------------
     softwareUpdateExecution(id: ID!): SoftwareUpdateExecution
     softwareUpdateExecutions: SoftwareUpdateExecutionQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # DeviceGroup
 # -----------------------------------------
     deviceGroup(id: ID!): DeviceGroup
     deviceGroups: DeviceGroupQueryResult
 
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
+
 # -----------------------------------------
 # UsageRecord
 # -----------------------------------------
@@ -2125,7 +2125,7 @@ hasMore: Boolean!
 # ConnectivityType
 # -----------------------------------------
 enum ConnectivityType {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         WiFi
         Ethernet
         LTE
@@ -2140,7 +2140,7 @@ $generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A 
 # DeviceStatus
 # -----------------------------------------
 enum DeviceStatus {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         Provisioning
         Active
         Suspended
@@ -2151,7 +2151,7 @@ $generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A 
 # TelemetryEncoding
 # -----------------------------------------
 enum TelemetryEncoding {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         JSON
         CBOR
         Protobuf
@@ -2162,7 +2162,7 @@ $generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A 
 # MessageQoS
 # -----------------------------------------
 enum MessageQoS {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         AtMostOnce
         AtLeastOnce
         ExactlyOnce
@@ -2171,7 +2171,7 @@ $generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A 
 # CertificateType
 # -----------------------------------------
 enum CertificateType {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         X509
         X509_CA
         X509_SelfSigned
@@ -2180,7 +2180,7 @@ $generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A 
 # ProvisioningMethod
 # -----------------------------------------
 enum ProvisioningMethod {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         Manual
         JITP
         JITR
@@ -2191,7 +2191,7 @@ $generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A 
 # ProvisioningStatus
 # -----------------------------------------
 enum ProvisioningStatus {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         Pending
         Enrolled
         Failed
@@ -2201,7 +2201,7 @@ $generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A 
 # SensorType
 # -----------------------------------------
 enum SensorType {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         Temperature
         Humidity
         Pressure
@@ -2218,7 +2218,7 @@ $generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A 
 # ActuatorType
 # -----------------------------------------
 enum ActuatorType {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         Relay
         Motor
         Valve
@@ -2230,7 +2230,7 @@ $generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A 
 # AlertSeverity
 # -----------------------------------------
 enum AlertSeverity {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         Info
         Warning
         Critical
@@ -2239,7 +2239,7 @@ $generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A 
 # AlertStatus
 # -----------------------------------------
 enum AlertStatus {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         Open
         Acknowledged
         Resolved
@@ -2249,7 +2249,7 @@ $generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A 
 # UserRole
 # -----------------------------------------
 enum UserRole {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         Admin
         Operator
         Viewer
@@ -2259,7 +2259,7 @@ $generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A 
 # TenantType
 # -----------------------------------------
 enum TenantType {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         Enterprise
         SMB
         ISV
@@ -2270,7 +2270,7 @@ $generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A 
 # MessagingProtocol
 # -----------------------------------------
 enum MessagingProtocol {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         MQTT
         AMQP
         HTTP
@@ -2281,7 +2281,7 @@ $generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A 
 # SimStatus
 # -----------------------------------------
 enum SimStatus {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         Active
         Suspended
         Retired
@@ -2290,7 +2290,7 @@ $generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A 
 # CommandStatus
 # -----------------------------------------
 enum CommandStatus {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         Queued
         Sent
         Succeeded
@@ -2302,7 +2302,7 @@ $generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A 
 # UpdateCampaignStatus
 # -----------------------------------------
 enum UpdateCampaignStatus {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         Planned
         InProgress
         Paused
@@ -2313,7 +2313,7 @@ $generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A 
 # UpdateStatus
 # -----------------------------------------
 enum UpdateStatus {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         Downloading
         Installing
         Rebooting
@@ -2325,7 +2325,7 @@ $generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A 
 # TwinChangeType
 # -----------------------------------------
 enum TwinChangeType {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         DesiredUpdated
         ReportedUpdated
         TagUpdated
@@ -2334,7 +2334,7 @@ $generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A 
 # MaintenancePriority
 # -----------------------------------------
 enum MaintenancePriority {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         Low
         Medium
         High
@@ -2344,7 +2344,7 @@ $generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A 
 # MaintenanceStatus
 # -----------------------------------------
 enum MaintenanceStatus {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         Open
         InProgress
         WaitingOnParts
@@ -2354,7 +2354,7 @@ $generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A 
 # DeploymentStatus
 # -----------------------------------------
 enum DeploymentStatus {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         Pending
         Deploying
         Running
@@ -2365,7 +2365,7 @@ $generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A 
 # PowerSource
 # -----------------------------------------
 enum PowerSource {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         Battery
         Mains
         PoE
@@ -2376,7 +2376,7 @@ $generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A 
 # ModuleType
 # -----------------------------------------
 enum ModuleType {
-$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+
         RFModule
         MCU
         SensorChipset
