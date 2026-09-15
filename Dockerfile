@@ -7,7 +7,7 @@ LABEL org.opencontainers.image.version="0.0.1"
 LABEL com.harbormaster.blueprint="Apollo GraphQL"
 LABEL com.harbormaster.model="IoT Industry Domain Model"
 LABEL com.harbormaster.generated="2026-09-15"
-#LABEL com.harbormaster.certification="baa3979d-674c-44da-ab9a-5edcc33f79b9"
+#LABEL com.harbormaster.certification="c8db7058-1f82-41cd-9753-29afae1e3f63"
 
 WORKDIR /app
 

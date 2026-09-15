@@ -72,6 +72,7 @@ export class HttpBackendAPI implements BackendAPI {
         });
     }
 
+
     deviceVendor = {
         find: async (id: string): Promise<DeviceVendor | null> => {
             const response = await this.http.post(`/DeviceVendor/post`,
@@ -108,6 +109,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getDeviceModels: async (parentId: string): Promise<DeviceModel[]> => {
             const response = await this.http.put(`/DeviceVendor/getDeviceModels/`,
                 {
@@ -137,6 +139,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getFirmwareReleases: async (parentId: string): Promise<FirmwareRelease[]> => {
             const response = await this.http.put(`/DeviceVendor/getFirmwareReleases/`,
                 {
@@ -165,6 +168,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getHardwareModules: async (parentId: string): Promise<HardwareModule[]> => {
             const response = await this.http.put(`/DeviceVendor/getHardwareModules/`,
@@ -197,6 +201,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     hardwareModule = {
@@ -235,6 +240,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getVendor: async (parentId: string): Promise<DeviceVendor | null> => {
             const response = await this.http.put(`/HardwareModule/getVendor`,
                 {
@@ -266,6 +272,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     deviceModel = {
@@ -304,6 +311,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getVendor: async (parentId: string): Promise<DeviceVendor | null> => {
             const response = await this.http.put(`/DeviceModel/getVendor`,
                 {
@@ -332,6 +340,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getTwinTemplate: async (parentId: string): Promise<TwinTemplate | null> => {
             const response = await this.http.put(`/DeviceModel/getTwinTemplate`,
@@ -362,6 +371,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getHardwareModules: async (parentId: string): Promise<HardwareModule[]> => {
             const response = await this.http.put(`/DeviceModel/getHardwareModules/`,
                 {
@@ -391,6 +401,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getFirmwareReleases: async (parentId: string): Promise<FirmwareRelease[]> => {
             const response = await this.http.put(`/DeviceModel/getFirmwareReleases/`,
                 {
@@ -419,6 +430,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getCommandDefinitions: async (parentId: string): Promise<CommandDefinition[]> => {
             const response = await this.http.put(`/DeviceModel/getCommandDefinitions/`,
@@ -451,6 +463,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     firmwareRelease = {
@@ -489,6 +502,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getDeviceModel: async (parentId: string): Promise<DeviceModel | null> => {
             const response = await this.http.put(`/FirmwareRelease/getDeviceModel`,
                 {
@@ -520,6 +534,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     ioTDevice = {
@@ -558,6 +573,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getDeviceModel: async (parentId: string): Promise<DeviceModel | null> => {
             const response = await this.http.put(`/IoTDevice/getDeviceModel`,
                 {
@@ -586,6 +602,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getTenant: async (parentId: string): Promise<Tenant | null> => {
             const response = await this.http.put(`/IoTDevice/getTenant`,
@@ -616,6 +633,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getSite: async (parentId: string): Promise<Site | null> => {
             const response = await this.http.put(`/IoTDevice/getSite`,
                 {
@@ -644,6 +662,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getRoom: async (parentId: string): Promise<Room | null> => {
             const response = await this.http.put(`/IoTDevice/getRoom`,
@@ -674,6 +693,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getGateway: async (parentId: string): Promise<Gateway | null> => {
             const response = await this.http.put(`/IoTDevice/getGateway`,
                 {
@@ -702,6 +722,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getDigitalTwin: async (parentId: string): Promise<DigitalTwin | null> => {
             const response = await this.http.put(`/IoTDevice/getDigitalTwin`,
@@ -732,6 +753,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getProvisioningRecord: async (parentId: string): Promise<ProvisioningRecord | null> => {
             const response = await this.http.put(`/IoTDevice/getProvisioningRecord`,
                 {
@@ -760,6 +782,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getSensors: async (parentId: string): Promise<SensorInstance[]> => {
             const response = await this.http.put(`/IoTDevice/getSensors/`,
@@ -790,6 +813,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getActuators: async (parentId: string): Promise<ActuatorInstance[]> => {
             const response = await this.http.put(`/IoTDevice/getActuators/`,
                 {
@@ -818,6 +842,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getCertificates: async (parentId: string): Promise<DeviceCertificate[]> => {
             const response = await this.http.put(`/IoTDevice/getCertificates/`,
@@ -848,6 +873,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getTelemetryStreams: async (parentId: string): Promise<TelemetryStream[]> => {
             const response = await this.http.put(`/IoTDevice/getTelemetryStreams/`,
                 {
@@ -876,6 +902,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getCommandInvocations: async (parentId: string): Promise<CommandInvocation[]> => {
             const response = await this.http.put(`/IoTDevice/getCommandInvocations/`,
@@ -906,6 +933,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getAlerts: async (parentId: string): Promise<Alert[]> => {
             const response = await this.http.put(`/IoTDevice/getAlerts/`,
                 {
@@ -935,6 +963,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getDeviceGroups: async (parentId: string): Promise<DeviceGroup[]> => {
             const response = await this.http.put(`/IoTDevice/getDeviceGroups/`,
                 {
@@ -963,6 +992,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getNetworkProfiles: async (parentId: string): Promise<NetworkProfile[]> => {
             const response = await this.http.put(`/IoTDevice/getNetworkProfiles/`,
@@ -995,6 +1025,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     sensorInstance = {
@@ -1033,6 +1064,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getDevice: async (parentId: string): Promise<IoTDevice | null> => {
             const response = await this.http.put(`/SensorInstance/getDevice`,
                 {
@@ -1061,6 +1093,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getTelemetryStreams: async (parentId: string): Promise<TelemetryStream[]> => {
             const response = await this.http.put(`/SensorInstance/getTelemetryStreams/`,
@@ -1093,6 +1126,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     actuatorInstance = {
@@ -1131,6 +1165,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getDevice: async (parentId: string): Promise<IoTDevice | null> => {
             const response = await this.http.put(`/ActuatorInstance/getDevice`,
                 {
@@ -1159,6 +1194,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getSupportedCommands: async (parentId: string): Promise<CommandDefinition[]> => {
             const response = await this.http.put(`/ActuatorInstance/getSupportedCommands/`,
@@ -1191,6 +1227,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     telemetrySchema = {
@@ -1229,6 +1266,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getStreams: async (parentId: string): Promise<TelemetryStream[]> => {
             const response = await this.http.put(`/TelemetrySchema/getStreams/`,
                 {
@@ -1260,6 +1298,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     telemetryStream = {
@@ -1298,6 +1337,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getDevice: async (parentId: string): Promise<IoTDevice | null> => {
             const response = await this.http.put(`/TelemetryStream/getDevice`,
                 {
@@ -1326,6 +1366,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getSensor: async (parentId: string): Promise<SensorInstance | null> => {
             const response = await this.http.put(`/TelemetryStream/getSensor`,
@@ -1356,6 +1397,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getSchema: async (parentId: string): Promise<TelemetrySchema | null> => {
             const response = await this.http.put(`/TelemetryStream/getSchema`,
                 {
@@ -1385,6 +1427,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getMessagingEndpoint: async (parentId: string): Promise<MessagingEndpoint | null> => {
             const response = await this.http.put(`/TelemetryStream/getMessagingEndpoint`,
                 {
@@ -1413,6 +1456,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getRetentionPolicy: async (parentId: string): Promise<DataRetentionPolicy | null> => {
             const response = await this.http.put(`/TelemetryStream/getRetentionPolicy`,
@@ -1445,6 +1489,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     commandDefinition = {
@@ -1483,6 +1528,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getDeviceModel: async (parentId: string): Promise<DeviceModel | null> => {
             const response = await this.http.put(`/CommandDefinition/getDeviceModel`,
                 {
@@ -1512,6 +1558,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getActuators: async (parentId: string): Promise<ActuatorInstance[]> => {
             const response = await this.http.put(`/CommandDefinition/getActuators/`,
                 {
@@ -1540,6 +1587,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getCommandInvocations: async (parentId: string): Promise<CommandInvocation[]> => {
             const response = await this.http.put(`/CommandDefinition/getCommandInvocations/`,
@@ -1572,6 +1620,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     commandInvocation = {
@@ -1610,6 +1659,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getDevice: async (parentId: string): Promise<IoTDevice | null> => {
             const response = await this.http.put(`/CommandInvocation/getDevice`,
                 {
@@ -1638,6 +1688,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getCommandDefinition: async (parentId: string): Promise<CommandDefinition | null> => {
             const response = await this.http.put(`/CommandInvocation/getCommandDefinition`,
@@ -1668,6 +1719,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getActuator: async (parentId: string): Promise<ActuatorInstance | null> => {
             const response = await this.http.put(`/CommandInvocation/getActuator`,
                 {
@@ -1696,6 +1748,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getUser: async (parentId: string): Promise<TenantUser | null> => {
             const response = await this.http.put(`/CommandInvocation/getUser`,
@@ -1728,6 +1781,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     alertRule = {
@@ -1766,6 +1820,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getTenant: async (parentId: string): Promise<Tenant | null> => {
             const response = await this.http.put(`/AlertRule/getTenant`,
                 {
@@ -1795,6 +1850,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getStreams: async (parentId: string): Promise<TelemetryStream[]> => {
             const response = await this.http.put(`/AlertRule/getStreams/`,
                 {
@@ -1823,6 +1879,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getAlerts: async (parentId: string): Promise<Alert[]> => {
             const response = await this.http.put(`/AlertRule/getAlerts/`,
@@ -1855,6 +1912,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     alert = {
@@ -1893,6 +1951,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getDevice: async (parentId: string): Promise<IoTDevice | null> => {
             const response = await this.http.put(`/Alert/getDevice`,
                 {
@@ -1921,6 +1980,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getAlertRule: async (parentId: string): Promise<AlertRule | null> => {
             const response = await this.http.put(`/Alert/getAlertRule`,
@@ -1953,6 +2013,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     tenant = {
@@ -1991,6 +2052,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getSites: async (parentId: string): Promise<Site[]> => {
             const response = await this.http.put(`/Tenant/getSites/`,
                 {
@@ -2019,6 +2081,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getUsers: async (parentId: string): Promise<TenantUser[]> => {
             const response = await this.http.put(`/Tenant/getUsers/`,
@@ -2049,6 +2112,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getDevices: async (parentId: string): Promise<IoTDevice[]> => {
             const response = await this.http.put(`/Tenant/getDevices/`,
                 {
@@ -2077,6 +2141,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getDataRetentionPolicies: async (parentId: string): Promise<DataRetentionPolicy[]> => {
             const response = await this.http.put(`/Tenant/getDataRetentionPolicies/`,
@@ -2107,6 +2172,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getConnectivityPlans: async (parentId: string): Promise<ConnectivityPlan[]> => {
             const response = await this.http.put(`/Tenant/getConnectivityPlans/`,
                 {
@@ -2135,6 +2201,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getSimCards: async (parentId: string): Promise<SimCard[]> => {
             const response = await this.http.put(`/Tenant/getSimCards/`,
@@ -2165,6 +2232,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getMessagingEndpoints: async (parentId: string): Promise<MessagingEndpoint[]> => {
             const response = await this.http.put(`/Tenant/getMessagingEndpoints/`,
                 {
@@ -2193,6 +2261,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getAccessPolicies: async (parentId: string): Promise<AccessPolicy[]> => {
             const response = await this.http.put(`/Tenant/getAccessPolicies/`,
@@ -2223,6 +2292,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getDeviceGroups: async (parentId: string): Promise<DeviceGroup[]> => {
             const response = await this.http.put(`/Tenant/getDeviceGroups/`,
                 {
@@ -2251,6 +2321,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getAlertRules: async (parentId: string): Promise<AlertRule[]> => {
             const response = await this.http.put(`/Tenant/getAlertRules/`,
@@ -2281,6 +2352,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getMaintenanceTickets: async (parentId: string): Promise<MaintenanceTicket[]> => {
             const response = await this.http.put(`/Tenant/getMaintenanceTickets/`,
                 {
@@ -2309,6 +2381,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getUsageRecords: async (parentId: string): Promise<UsageRecord[]> => {
             const response = await this.http.put(`/Tenant/getUsageRecords/`,
@@ -2341,6 +2414,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     tenantUser = {
@@ -2379,6 +2453,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getTenant: async (parentId: string): Promise<Tenant | null> => {
             const response = await this.http.put(`/TenantUser/getTenant`,
                 {
@@ -2407,6 +2482,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getCommandInvocations: async (parentId: string): Promise<CommandInvocation[]> => {
             const response = await this.http.put(`/TenantUser/getCommandInvocations/`,
@@ -2439,6 +2515,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     site = {
@@ -2477,6 +2554,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getTenant: async (parentId: string): Promise<Tenant | null> => {
             const response = await this.http.put(`/Site/getTenant`,
                 {
@@ -2505,6 +2583,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getBuildings: async (parentId: string): Promise<Building[]> => {
             const response = await this.http.put(`/Site/getBuildings/`,
@@ -2535,6 +2614,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getDevices: async (parentId: string): Promise<IoTDevice[]> => {
             const response = await this.http.put(`/Site/getDevices/`,
                 {
@@ -2563,6 +2643,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getGateways: async (parentId: string): Promise<Gateway[]> => {
             const response = await this.http.put(`/Site/getGateways/`,
@@ -2595,6 +2676,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     building = {
@@ -2633,6 +2715,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getSite: async (parentId: string): Promise<Site | null> => {
             const response = await this.http.put(`/Building/getSite`,
                 {
@@ -2661,6 +2744,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getFloors: async (parentId: string): Promise<Floor[]> => {
             const response = await this.http.put(`/Building/getFloors/`,
@@ -2693,6 +2777,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     floor = {
@@ -2731,6 +2816,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getBuilding: async (parentId: string): Promise<Building | null> => {
             const response = await this.http.put(`/Floor/getBuilding`,
                 {
@@ -2759,6 +2845,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getRooms: async (parentId: string): Promise<Room[]> => {
             const response = await this.http.put(`/Floor/getRooms/`,
@@ -2791,6 +2878,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     room = {
@@ -2829,6 +2917,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getFloor: async (parentId: string): Promise<Floor | null> => {
             const response = await this.http.put(`/Room/getFloor`,
                 {
@@ -2858,6 +2947,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getDevices: async (parentId: string): Promise<IoTDevice[]> => {
             const response = await this.http.put(`/Room/getDevices/`,
                 {
@@ -2886,6 +2976,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getGateways: async (parentId: string): Promise<Gateway[]> => {
             const response = await this.http.put(`/Room/getGateways/`,
@@ -2918,6 +3009,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     gateway = {
@@ -2956,6 +3048,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getSite: async (parentId: string): Promise<Site | null> => {
             const response = await this.http.put(`/Gateway/getSite`,
                 {
@@ -2984,6 +3077,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getRoom: async (parentId: string): Promise<Room | null> => {
             const response = await this.http.put(`/Gateway/getRoom`,
@@ -3014,6 +3108,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getDigitalTwin: async (parentId: string): Promise<DigitalTwin | null> => {
             const response = await this.http.put(`/Gateway/getDigitalTwin`,
                 {
@@ -3042,6 +3137,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getDevices: async (parentId: string): Promise<IoTDevice[]> => {
             const response = await this.http.put(`/Gateway/getDevices/`,
@@ -3072,6 +3168,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getEdgeApplications: async (parentId: string): Promise<EdgeApplication[]> => {
             const response = await this.http.put(`/Gateway/getEdgeApplications/`,
                 {
@@ -3101,6 +3198,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getCertificates: async (parentId: string): Promise<DeviceCertificate[]> => {
             const response = await this.http.put(`/Gateway/getCertificates/`,
                 {
@@ -3129,6 +3227,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getNetworkProfiles: async (parentId: string): Promise<NetworkProfile[]> => {
             const response = await this.http.put(`/Gateway/getNetworkProfiles/`,
@@ -3161,6 +3260,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     edgeApplication = {
@@ -3199,6 +3299,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getGateway: async (parentId: string): Promise<Gateway | null> => {
             const response = await this.http.put(`/EdgeApplication/getGateway`,
                 {
@@ -3230,6 +3331,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     networkProfile = {
@@ -3268,6 +3370,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getDevice: async (parentId: string): Promise<IoTDevice | null> => {
             const response = await this.http.put(`/NetworkProfile/getDevice`,
                 {
@@ -3297,6 +3400,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getGateway: async (parentId: string): Promise<Gateway | null> => {
             const response = await this.http.put(`/NetworkProfile/getGateway`,
                 {
@@ -3325,6 +3429,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getSimCard: async (parentId: string): Promise<SimCard | null> => {
             const response = await this.http.put(`/NetworkProfile/getSimCard`,
@@ -3357,6 +3462,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     simCard = {
@@ -3395,6 +3501,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getTenant: async (parentId: string): Promise<Tenant | null> => {
             const response = await this.http.put(`/SimCard/getTenant`,
                 {
@@ -3424,6 +3531,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getConnectivityPlan: async (parentId: string): Promise<ConnectivityPlan | null> => {
             const response = await this.http.put(`/SimCard/getConnectivityPlan`,
                 {
@@ -3452,6 +3560,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getNetworkProfiles: async (parentId: string): Promise<NetworkProfile[]> => {
             const response = await this.http.put(`/SimCard/getNetworkProfiles/`,
@@ -3484,6 +3593,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     connectivityPlan = {
@@ -3522,6 +3632,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getTenant: async (parentId: string): Promise<Tenant | null> => {
             const response = await this.http.put(`/ConnectivityPlan/getTenant`,
                 {
@@ -3550,6 +3661,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getSimCards: async (parentId: string): Promise<SimCard[]> => {
             const response = await this.http.put(`/ConnectivityPlan/getSimCards/`,
@@ -3582,6 +3694,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     messagingEndpoint = {
@@ -3620,6 +3733,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getTenant: async (parentId: string): Promise<Tenant | null> => {
             const response = await this.http.put(`/MessagingEndpoint/getTenant`,
                 {
@@ -3648,6 +3762,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getStreams: async (parentId: string): Promise<TelemetryStream[]> => {
             const response = await this.http.put(`/MessagingEndpoint/getStreams/`,
@@ -3680,6 +3795,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     accessPolicy = {
@@ -3718,6 +3834,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getTenant: async (parentId: string): Promise<Tenant | null> => {
             const response = await this.http.put(`/AccessPolicy/getTenant`,
                 {
@@ -3747,6 +3864,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getApiKeys: async (parentId: string): Promise<ApiKey[]> => {
             const response = await this.http.put(`/AccessPolicy/getApiKeys/`,
                 {
@@ -3775,6 +3893,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getUsers: async (parentId: string): Promise<TenantUser[]> => {
             const response = await this.http.put(`/AccessPolicy/getUsers/`,
@@ -3807,6 +3926,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     apiKey = {
@@ -3845,6 +3965,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getAccessPolicy: async (parentId: string): Promise<AccessPolicy | null> => {
             const response = await this.http.put(`/ApiKey/getAccessPolicy`,
                 {
@@ -3876,6 +3997,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     deviceCertificate = {
@@ -3914,6 +4036,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getDevice: async (parentId: string): Promise<IoTDevice | null> => {
             const response = await this.http.put(`/DeviceCertificate/getDevice`,
                 {
@@ -3942,6 +4065,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getGateway: async (parentId: string): Promise<Gateway | null> => {
             const response = await this.http.put(`/DeviceCertificate/getGateway`,
@@ -3974,6 +4098,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     provisioningRecord = {
@@ -4012,6 +4137,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getDevice: async (parentId: string): Promise<IoTDevice | null> => {
             const response = await this.http.put(`/ProvisioningRecord/getDevice`,
                 {
@@ -4041,6 +4167,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getCertificate: async (parentId: string): Promise<DeviceCertificate | null> => {
             const response = await this.http.put(`/ProvisioningRecord/getCertificate`,
                 {
@@ -4069,6 +4196,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getTenant: async (parentId: string): Promise<Tenant | null> => {
             const response = await this.http.put(`/ProvisioningRecord/getTenant`,
@@ -4101,6 +4229,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     digitalTwin = {
@@ -4139,6 +4268,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getDevice: async (parentId: string): Promise<IoTDevice | null> => {
             const response = await this.http.put(`/DigitalTwin/getDevice`,
                 {
@@ -4167,6 +4297,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getGateway: async (parentId: string): Promise<Gateway | null> => {
             const response = await this.http.put(`/DigitalTwin/getGateway`,
@@ -4197,6 +4328,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getTemplate: async (parentId: string): Promise<TwinTemplate | null> => {
             const response = await this.http.put(`/DigitalTwin/getTemplate`,
                 {
@@ -4225,6 +4357,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getChangeEvents: async (parentId: string): Promise<TwinChangeEvent[]> => {
             const response = await this.http.put(`/DigitalTwin/getChangeEvents/`,
@@ -4257,6 +4390,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     twinTemplate = {
@@ -4295,6 +4429,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getDeviceModels: async (parentId: string): Promise<DeviceModel[]> => {
             const response = await this.http.put(`/TwinTemplate/getDeviceModels/`,
                 {
@@ -4326,6 +4461,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     twinChangeEvent = {
@@ -4364,6 +4500,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getTwin: async (parentId: string): Promise<DigitalTwin | null> => {
             const response = await this.http.put(`/TwinChangeEvent/getTwin`,
                 {
@@ -4395,6 +4532,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     maintenanceTicket = {
@@ -4433,6 +4571,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getDevice: async (parentId: string): Promise<IoTDevice | null> => {
             const response = await this.http.put(`/MaintenanceTicket/getDevice`,
                 {
@@ -4461,6 +4600,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getTenant: async (parentId: string): Promise<Tenant | null> => {
             const response = await this.http.put(`/MaintenanceTicket/getTenant`,
@@ -4493,6 +4633,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     dataRetentionPolicy = {
@@ -4531,6 +4672,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getTenant: async (parentId: string): Promise<Tenant | null> => {
             const response = await this.http.put(`/DataRetentionPolicy/getTenant`,
                 {
@@ -4559,6 +4701,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getStreams: async (parentId: string): Promise<TelemetryStream[]> => {
             const response = await this.http.put(`/DataRetentionPolicy/getStreams/`,
@@ -4591,6 +4734,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     softwareUpdateCampaign = {
@@ -4629,6 +4773,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getFirmwareRelease: async (parentId: string): Promise<FirmwareRelease | null> => {
             const response = await this.http.put(`/SoftwareUpdateCampaign/getFirmwareRelease`,
                 {
@@ -4658,6 +4803,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getDeviceGroup: async (parentId: string): Promise<DeviceGroup | null> => {
             const response = await this.http.put(`/SoftwareUpdateCampaign/getDeviceGroup`,
                 {
@@ -4686,6 +4832,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getExecutions: async (parentId: string): Promise<SoftwareUpdateExecution[]> => {
             const response = await this.http.put(`/SoftwareUpdateCampaign/getExecutions/`,
@@ -4718,6 +4865,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     softwareUpdateExecution = {
@@ -4756,6 +4904,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getCampaign: async (parentId: string): Promise<SoftwareUpdateCampaign | null> => {
             const response = await this.http.put(`/SoftwareUpdateExecution/getCampaign`,
                 {
@@ -4784,6 +4933,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getDevice: async (parentId: string): Promise<IoTDevice | null> => {
             const response = await this.http.put(`/SoftwareUpdateExecution/getDevice`,
@@ -4816,6 +4966,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     deviceGroup = {
@@ -4854,6 +5005,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getTenant: async (parentId: string): Promise<Tenant | null> => {
             const response = await this.http.put(`/DeviceGroup/getTenant`,
                 {
@@ -4882,6 +5034,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getDevices: async (parentId: string): Promise<IoTDevice[]> => {
             const response = await this.http.put(`/DeviceGroup/getDevices/`,
@@ -4914,6 +5067,7 @@ export class HttpBackendAPI implements BackendAPI {
 
 
 };
+
 
 
     usageRecord = {
@@ -4952,6 +5106,7 @@ export class HttpBackendAPI implements BackendAPI {
             return response.data;
         },
 
+
         getTenant: async (parentId: string): Promise<Tenant | null> => {
             const response = await this.http.put(`/UsageRecord/getTenant`,
                 {
@@ -4981,6 +5136,7 @@ export class HttpBackendAPI implements BackendAPI {
             return true;
         },
 
+
         getDevice: async (parentId: string): Promise<IoTDevice | null> => {
             const response = await this.http.put(`/UsageRecord/getDevice`,
                 {
@@ -5009,6 +5165,7 @@ export class HttpBackendAPI implements BackendAPI {
             );
             return true;
         },
+
 
         getConnectivityPlan: async (parentId: string): Promise<ConnectivityPlan | null> => {
             const response = await this.http.put(`/UsageRecord/getConnectivityPlan`,

@@ -45,228 +45,266 @@ type Query {
 
     health: String!
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # DeviceVendor
 # -----------------------------------------
     deviceVendor(id: ID!): DeviceVendor
     deviceVendors: DeviceVendorQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # HardwareModule
 # -----------------------------------------
     hardwareModule(id: ID!): HardwareModule
     hardwareModules: HardwareModuleQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # DeviceModel
 # -----------------------------------------
     deviceModel(id: ID!): DeviceModel
     deviceModels: DeviceModelQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # FirmwareRelease
 # -----------------------------------------
     firmwareRelease(id: ID!): FirmwareRelease
     firmwareReleases: FirmwareReleaseQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # IoTDevice
 # -----------------------------------------
     ioTDevice(id: ID!): IoTDevice
     ioTDevices: IoTDeviceQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # SensorInstance
 # -----------------------------------------
     sensorInstance(id: ID!): SensorInstance
     sensorInstances: SensorInstanceQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # ActuatorInstance
 # -----------------------------------------
     actuatorInstance(id: ID!): ActuatorInstance
     actuatorInstances: ActuatorInstanceQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # TelemetrySchema
 # -----------------------------------------
     telemetrySchema(id: ID!): TelemetrySchema
     telemetrySchemas: TelemetrySchemaQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # TelemetryStream
 # -----------------------------------------
     telemetryStream(id: ID!): TelemetryStream
     telemetryStreams: TelemetryStreamQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # CommandDefinition
 # -----------------------------------------
     commandDefinition(id: ID!): CommandDefinition
     commandDefinitions: CommandDefinitionQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # CommandInvocation
 # -----------------------------------------
     commandInvocation(id: ID!): CommandInvocation
     commandInvocations: CommandInvocationQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # AlertRule
 # -----------------------------------------
     alertRule(id: ID!): AlertRule
     alertRules: AlertRuleQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # Alert
 # -----------------------------------------
     alert(id: ID!): Alert
     alerts: AlertQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # Tenant
 # -----------------------------------------
     tenant(id: ID!): Tenant
     tenants: TenantQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # TenantUser
 # -----------------------------------------
     tenantUser(id: ID!): TenantUser
     tenantUsers: TenantUserQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # Site
 # -----------------------------------------
     site(id: ID!): Site
     sites: SiteQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # Building
 # -----------------------------------------
     building(id: ID!): Building
     buildings: BuildingQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # Floor
 # -----------------------------------------
     floor(id: ID!): Floor
     floors: FloorQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # Room
 # -----------------------------------------
     room(id: ID!): Room
     rooms: RoomQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # Gateway
 # -----------------------------------------
     gateway(id: ID!): Gateway
     gateways: GatewayQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # EdgeApplication
 # -----------------------------------------
     edgeApplication(id: ID!): EdgeApplication
     edgeApplications: EdgeApplicationQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # NetworkProfile
 # -----------------------------------------
     networkProfile(id: ID!): NetworkProfile
     networkProfiles: NetworkProfileQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # SimCard
 # -----------------------------------------
     simCard(id: ID!): SimCard
     simCards: SimCardQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # ConnectivityPlan
 # -----------------------------------------
     connectivityPlan(id: ID!): ConnectivityPlan
     connectivityPlans: ConnectivityPlanQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # MessagingEndpoint
 # -----------------------------------------
     messagingEndpoint(id: ID!): MessagingEndpoint
     messagingEndpoints: MessagingEndpointQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # AccessPolicy
 # -----------------------------------------
     accessPolicy(id: ID!): AccessPolicy
     accessPolicys: AccessPolicyQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # ApiKey
 # -----------------------------------------
     apiKey(id: ID!): ApiKey
     apiKeys: ApiKeyQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # DeviceCertificate
 # -----------------------------------------
     deviceCertificate(id: ID!): DeviceCertificate
     deviceCertificates: DeviceCertificateQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # ProvisioningRecord
 # -----------------------------------------
     provisioningRecord(id: ID!): ProvisioningRecord
     provisioningRecords: ProvisioningRecordQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # DigitalTwin
 # -----------------------------------------
     digitalTwin(id: ID!): DigitalTwin
     digitalTwins: DigitalTwinQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # TwinTemplate
 # -----------------------------------------
     twinTemplate(id: ID!): TwinTemplate
     twinTemplates: TwinTemplateQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # TwinChangeEvent
 # -----------------------------------------
     twinChangeEvent(id: ID!): TwinChangeEvent
     twinChangeEvents: TwinChangeEventQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # MaintenanceTicket
 # -----------------------------------------
     maintenanceTicket(id: ID!): MaintenanceTicket
     maintenanceTickets: MaintenanceTicketQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # DataRetentionPolicy
 # -----------------------------------------
     dataRetentionPolicy(id: ID!): DataRetentionPolicy
     dataRetentionPolicys: DataRetentionPolicyQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # SoftwareUpdateCampaign
 # -----------------------------------------
     softwareUpdateCampaign(id: ID!): SoftwareUpdateCampaign
     softwareUpdateCampaigns: SoftwareUpdateCampaignQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # SoftwareUpdateExecution
 # -----------------------------------------
     softwareUpdateExecution(id: ID!): SoftwareUpdateExecution
     softwareUpdateExecutions: SoftwareUpdateExecutionQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # DeviceGroup
 # -----------------------------------------
     deviceGroup(id: ID!): DeviceGroup
     deviceGroups: DeviceGroupQueryResult
 
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Query Schema", "Read operations exposed through the GraphQL API", 2 )
 # -----------------------------------------
 # UsageRecord
 # -----------------------------------------
@@ -279,6 +317,7 @@ type Query {
 # Write Related Functions
 # -----------------------------------------
 type Mutation {
+
 addDeviceVendor(
         name: String
         legalName: String
@@ -293,7 +332,9 @@ id: ID!
         headquartersCountry: String
         website: String
 ): DeviceVendor
+
 removeDeviceVendor(id: ID!): Boolean
+
 addHardwareModule(
         moduleCode: String
         datasheetUri: String
@@ -306,7 +347,9 @@ id: ID!
         datasheetUri: String
         ModuleType:  ModuleType
 ): HardwareModule
+
 removeHardwareModule(id: ID!): Boolean
+
 addDeviceModel(
         name: String
         modelNumber: String
@@ -323,7 +366,9 @@ id: ID!
         SupportedConnectivity:  ConnectivityType
         DefaultTelemetryEncoding:  TelemetryEncoding
 ): DeviceModel
+
 removeDeviceModel(id: ID!): Boolean
+
 addFirmwareRelease(
         version: String
         releaseDate: String
@@ -338,7 +383,9 @@ id: ID!
         releaseNotes: String
         checksum: String
 ): FirmwareRelease
+
 removeFirmwareRelease(id: ID!): Boolean
+
 addIoTDevice(
         deviceId: String
         serialNumber: String
@@ -357,7 +404,9 @@ id: ID!
         Status:  DeviceStatus
         PowerSource:  PowerSource
 ): IoTDevice
+
 removeIoTDevice(id: ID!): Boolean
+
 addSensorInstance(
         name: String
         unit: String
@@ -372,7 +421,9 @@ id: ID!
         samplingIntervalMs: Int
         SensorType:  SensorType
 ): SensorInstance
+
 removeSensorInstance(id: ID!): Boolean
+
 addActuatorInstance(
         name: String
         commandTopic: String
@@ -385,7 +436,9 @@ id: ID!
         commandTopic: String
         ActuatorType:  ActuatorType
 ): ActuatorInstance
+
 removeActuatorInstance(id: ID!): Boolean
+
 addTelemetrySchema(
         schemaId: String
         schemaUri: String
@@ -398,7 +451,9 @@ id: ID!
         schemaUri: String
         Encoding:  TelemetryEncoding
 ): TelemetrySchema
+
 removeTelemetrySchema(id: ID!): Boolean
+
 addTelemetryStream(
         streamName: String
         retentionDays: Int
@@ -411,7 +466,9 @@ id: ID!
         retentionDays: Int
         Qos:  MessageQoS
 ): TelemetryStream
+
 removeTelemetryStream(id: ID!): Boolean
+
 addCommandDefinition(
         name: String
         requestSchemaUri: String
@@ -426,7 +483,9 @@ id: ID!
         responseSchemaUri: String
         timeoutSeconds: Int
 ): CommandDefinition
+
 removeCommandDefinition(id: ID!): Boolean
+
 addCommandInvocation(
         invocationId: String
         requestedAt: String
@@ -441,7 +500,9 @@ id: ID!
         completedAt: String
         Status:  CommandStatus
 ): CommandInvocation
+
 removeCommandInvocation(id: ID!): Boolean
+
 addAlertRule(
         name: String
         expression: String
@@ -454,7 +515,9 @@ id: ID!
         expression: String
         Severity:  AlertSeverity
 ): AlertRule
+
 removeAlertRule(id: ID!): Boolean
+
 addAlert(
         raisedAt: String
         clearedAt: String
@@ -469,7 +532,9 @@ id: ID!
         message: String
         Status:  AlertStatus
 ): Alert
+
 removeAlert(id: ID!): Boolean
+
 addTenant(
         name: String
         TenantType:  TenantType
@@ -480,7 +545,9 @@ id: ID!
         name: String
         TenantType:  TenantType
 ): Tenant
+
 removeTenant(id: ID!): Boolean
+
 addTenantUser(
         firstName: String
         lastName: String
@@ -495,7 +562,9 @@ id: ID!
         email: String
         Role:  UserRole
 ): TenantUser
+
 removeTenantUser(id: ID!): Boolean
+
 addSite(
         name: String
         address: String
@@ -512,7 +581,9 @@ id: ID!
         latitude: String
         longitude: String
 ): Site
+
 removeSite(id: ID!): Boolean
+
 addBuilding(
         name: String
 ): Building
@@ -521,7 +592,9 @@ updateBuilding(
 id: ID!
         name: String
 ): Building
+
 removeBuilding(id: ID!): Boolean
+
 addFloor(
         name: String
         level: Int
@@ -532,7 +605,9 @@ id: ID!
         name: String
         level: Int
 ): Floor
+
 removeFloor(id: ID!): Boolean
+
 addRoom(
         name: String
 ): Room
@@ -541,7 +616,9 @@ updateRoom(
 id: ID!
         name: String
 ): Room
+
 removeRoom(id: ID!): Boolean
+
 addGateway(
         softwareVersion: String
         Status:  DeviceStatus
@@ -552,7 +629,9 @@ id: ID!
         softwareVersion: String
         Status:  DeviceStatus
 ): Gateway
+
 removeGateway(id: ID!): Boolean
+
 addEdgeApplication(
         name: String
         version: String
@@ -567,7 +646,9 @@ id: ID!
         image: String
         Status:  DeploymentStatus
 ): EdgeApplication
+
 removeEdgeApplication(id: ID!): Boolean
+
 addNetworkProfile(
         profileName: String
         ssid: String
@@ -582,7 +663,9 @@ id: ID!
         apn: String
         ConnectivityType:  ConnectivityType
 ): NetworkProfile
+
 removeNetworkProfile(id: ID!): Boolean
+
 addSimCard(
         iccid: String
         imsi: String
@@ -597,7 +680,9 @@ id: ID!
         carrier: String
         Status:  SimStatus
 ): SimCard
+
 removeSimCard(id: ID!): Boolean
+
 addConnectivityPlan(
         name: String
         dataCapMB: Int
@@ -610,7 +695,9 @@ id: ID!
         dataCapMB: Int
         billingCycleDays: Int
 ): ConnectivityPlan
+
 removeConnectivityPlan(id: ID!): Boolean
+
 addMessagingEndpoint(
         host: String
         port: Int
@@ -625,7 +712,9 @@ id: ID!
         secure: Boolean
         Protocol:  MessagingProtocol
 ): MessagingEndpoint
+
 removeMessagingEndpoint(id: ID!): Boolean
+
 addAccessPolicy(
         name: String
         scope: String
@@ -638,7 +727,9 @@ id: ID!
         scope: String
         expiresAt: String
 ): AccessPolicy
+
 removeAccessPolicy(id: ID!): Boolean
+
 addApiKey(
         keyId: String
         hashedSecret: String
@@ -653,7 +744,9 @@ id: ID!
         createdAt: String
         lastUsedAt: String
 ): ApiKey
+
 removeApiKey(id: ID!): Boolean
+
 addDeviceCertificate(
         serialNumber: String
         notBefore: String
@@ -670,7 +763,9 @@ id: ID!
         fingerprint: String
         CertificateType:  CertificateType
 ): DeviceCertificate
+
 removeDeviceCertificate(id: ID!): Boolean
+
 addProvisioningRecord(
         enrolledAt: String
         provisioningService: String
@@ -685,7 +780,9 @@ id: ID!
         Method:  ProvisioningMethod
         Status:  ProvisioningStatus
 ): ProvisioningRecord
+
 removeProvisioningRecord(id: ID!): Boolean
+
 addDigitalTwin(
         twinId: String
         desiredStateVersion: Int
@@ -700,7 +797,9 @@ id: ID!
         reportedStateVersion: Int
         lastSyncAt: String
 ): DigitalTwin
+
 removeDigitalTwin(id: ID!): Boolean
+
 addTwinTemplate(
         name: String
         schemaUri: String
@@ -713,7 +812,9 @@ id: ID!
         schemaUri: String
         version: String
 ): TwinTemplate
+
 removeTwinTemplate(id: ID!): Boolean
+
 addTwinChangeEvent(
         eventId: String
         occurredAt: String
@@ -726,7 +827,9 @@ id: ID!
         occurredAt: String
         ChangeType:  TwinChangeType
 ): TwinChangeEvent
+
 removeTwinChangeEvent(id: ID!): Boolean
+
 addMaintenanceTicket(
         ticketNumber: String
         openedAt: String
@@ -743,7 +846,9 @@ id: ID!
         Priority:  MaintenancePriority
         Status:  MaintenanceStatus
 ): MaintenanceTicket
+
 removeMaintenanceTicket(id: ID!): Boolean
+
 addDataRetentionPolicy(
         name: String
         retentionDays: Int
@@ -754,7 +859,9 @@ id: ID!
         name: String
         retentionDays: Int
 ): DataRetentionPolicy
+
 removeDataRetentionPolicy(id: ID!): Boolean
+
 addSoftwareUpdateCampaign(
         campaignCode: String
         scheduledStart: String
@@ -769,7 +876,9 @@ id: ID!
         scheduledEnd: String
         Status:  UpdateCampaignStatus
 ): SoftwareUpdateCampaign
+
 removeSoftwareUpdateCampaign(id: ID!): Boolean
+
 addSoftwareUpdateExecution(
         startedAt: String
         completedAt: String
@@ -782,7 +891,9 @@ id: ID!
         completedAt: String
         Status:  UpdateStatus
 ): SoftwareUpdateExecution
+
 removeSoftwareUpdateExecution(id: ID!): Boolean
+
 addDeviceGroup(
         name: String
         criteria: String
@@ -793,7 +904,9 @@ id: ID!
         name: String
         criteria: String
 ): DeviceGroup
+
 removeDeviceGroup(id: ID!): Boolean
+
 addUsageRecord(
         periodStart: String
         periodEnd: String
@@ -808,6 +921,7 @@ id: ID!
         messagesSent: Int
         dataVolumeMB: Int
 ): UsageRecord
+
 removeUsageRecord(id: ID!): Boolean
 }
 
@@ -823,12 +937,15 @@ id: ID!
         deviceModels:  [DeviceModel]
         firmwareReleases:  [FirmwareRelease]
         hardwareModules:  [HardwareModule]
+
     getDeviceModels( parentId: ID! ): [DeviceModel]!
     addToDeviceModels( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromDeviceModels( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getFirmwareReleases( parentId: ID! ): [FirmwareRelease]!
     addToFirmwareReleases( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromFirmwareReleases( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getHardwareModules( parentId: ID! ): [HardwareModule]!
     addToHardwareModules( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromHardwareModules( parentId: ID!, childIds: [ID]! ): Boolean!
@@ -850,12 +967,7 @@ id: ID!
         datasheetUri: String
         vendor: DeviceVendor
         moduleType:  ModuleType
-    addVendor(
-            name: String
-            legalName: String
-            headquartersCountry: String
-            website: String
-    ): HardwareModule
+
     getVendor( parentId: ID! ): HardwareModule
     assignVendor( parentId: ID!, childId: ID! ): Boolean!
     unassignVendor( parentId: ID!, childId: ID! ): Boolean!
@@ -882,27 +994,21 @@ id: ID!
         commandDefinitions:  [CommandDefinition]
         supportedConnectivity:  ConnectivityType
         defaultTelemetryEncoding:  TelemetryEncoding
-    addVendor(
-            name: String
-            legalName: String
-            headquartersCountry: String
-            website: String
-    ): DeviceModel
+
     getVendor( parentId: ID! ): DeviceModel
     assignVendor( parentId: ID!, childId: ID! ): Boolean!
-    unassignVendor( parentId: ID!, childId: ID! ): Boolean!    addTwinTemplate(
-            name: String
-            schemaUri: String
-            version: String
-    ): DeviceModel
+    unassignVendor( parentId: ID!, childId: ID! ): Boolean!
     getTwinTemplate( parentId: ID! ): DeviceModel
     assignTwinTemplate( parentId: ID!, childId: ID! ): Boolean!
-    unassignTwinTemplate( parentId: ID!, childId: ID! ): Boolean!    getHardwareModules( parentId: ID! ): [HardwareModule]!
+    unassignTwinTemplate( parentId: ID!, childId: ID! ): Boolean!
+    getHardwareModules( parentId: ID! ): [HardwareModule]!
     addToHardwareModules( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromHardwareModules( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getFirmwareReleases( parentId: ID! ): [FirmwareRelease]!
     addToFirmwareReleases( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromFirmwareReleases( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getCommandDefinitions( parentId: ID! ): [CommandDefinition]!
     addToCommandDefinitions( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromCommandDefinitions( parentId: ID!, childIds: [ID]! ): Boolean!
@@ -925,13 +1031,7 @@ id: ID!
         releaseNotes: String
         checksum: String
         deviceModel: DeviceModel
-    addDeviceModel(
-            name: String
-            modelNumber: String
-            hardwareRevision: String
-            SupportedConnectivity:  ConnectivityType
-            DefaultTelemetryEncoding:  TelemetryEncoding
-    ): FirmwareRelease
+
     getDeviceModel( parentId: ID! ): FirmwareRelease
     assignDeviceModel( parentId: ID!, childId: ID! ): Boolean!
     unassignDeviceModel( parentId: ID!, childId: ID! ): Boolean!
@@ -969,78 +1069,56 @@ id: ID!
         networkProfiles:  [NetworkProfile]
         status:  DeviceStatus
         powerSource:  PowerSource
-    addDeviceModel(
-            name: String
-            modelNumber: String
-            hardwareRevision: String
-            SupportedConnectivity:  ConnectivityType
-            DefaultTelemetryEncoding:  TelemetryEncoding
-    ): IoTDevice
+
     getDeviceModel( parentId: ID! ): IoTDevice
     assignDeviceModel( parentId: ID!, childId: ID! ): Boolean!
-    unassignDeviceModel( parentId: ID!, childId: ID! ): Boolean!    addTenant(
-            name: String
-            TenantType:  TenantType
-    ): IoTDevice
+    unassignDeviceModel( parentId: ID!, childId: ID! ): Boolean!
     getTenant( parentId: ID! ): IoTDevice
     assignTenant( parentId: ID!, childId: ID! ): Boolean!
-    unassignTenant( parentId: ID!, childId: ID! ): Boolean!    addSite(
-            name: String
-            address: String
-            timezone: String
-            latitude: String
-            longitude: String
-    ): IoTDevice
+    unassignTenant( parentId: ID!, childId: ID! ): Boolean!
     getSite( parentId: ID! ): IoTDevice
     assignSite( parentId: ID!, childId: ID! ): Boolean!
-    unassignSite( parentId: ID!, childId: ID! ): Boolean!    addRoom(
-            name: String
-    ): IoTDevice
+    unassignSite( parentId: ID!, childId: ID! ): Boolean!
     getRoom( parentId: ID! ): IoTDevice
     assignRoom( parentId: ID!, childId: ID! ): Boolean!
-    unassignRoom( parentId: ID!, childId: ID! ): Boolean!    addGateway(
-            softwareVersion: String
-            Status:  DeviceStatus
-    ): IoTDevice
+    unassignRoom( parentId: ID!, childId: ID! ): Boolean!
     getGateway( parentId: ID! ): IoTDevice
     assignGateway( parentId: ID!, childId: ID! ): Boolean!
-    unassignGateway( parentId: ID!, childId: ID! ): Boolean!    addDigitalTwin(
-            twinId: String
-            desiredStateVersion: Int
-            reportedStateVersion: Int
-            lastSyncAt: String
-    ): IoTDevice
+    unassignGateway( parentId: ID!, childId: ID! ): Boolean!
     getDigitalTwin( parentId: ID! ): IoTDevice
     assignDigitalTwin( parentId: ID!, childId: ID! ): Boolean!
-    unassignDigitalTwin( parentId: ID!, childId: ID! ): Boolean!    addProvisioningRecord(
-            enrolledAt: String
-            provisioningService: String
-            Method:  ProvisioningMethod
-            Status:  ProvisioningStatus
-    ): IoTDevice
+    unassignDigitalTwin( parentId: ID!, childId: ID! ): Boolean!
     getProvisioningRecord( parentId: ID! ): IoTDevice
     assignProvisioningRecord( parentId: ID!, childId: ID! ): Boolean!
-    unassignProvisioningRecord( parentId: ID!, childId: ID! ): Boolean!    getSensors( parentId: ID! ): [SensorInstance]!
+    unassignProvisioningRecord( parentId: ID!, childId: ID! ): Boolean!
+    getSensors( parentId: ID! ): [SensorInstance]!
     addToSensors( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromSensors( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getActuators( parentId: ID! ): [ActuatorInstance]!
     addToActuators( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromActuators( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getCertificates( parentId: ID! ): [DeviceCertificate]!
     addToCertificates( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromCertificates( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getTelemetryStreams( parentId: ID! ): [TelemetryStream]!
     addToTelemetryStreams( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromTelemetryStreams( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getCommandInvocations( parentId: ID! ): [CommandInvocation]!
     addToCommandInvocations( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromCommandInvocations( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getAlerts( parentId: ID! ): [Alert]!
     addToAlerts( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromAlerts( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getDeviceGroups( parentId: ID! ): [DeviceGroup]!
     addToDeviceGroups( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromDeviceGroups( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getNetworkProfiles( parentId: ID! ): [NetworkProfile]!
     addToNetworkProfiles( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromNetworkProfiles( parentId: ID!, childIds: [ID]! ): Boolean!
@@ -1064,17 +1142,11 @@ id: ID!
         device: IoTDevice
         telemetryStreams:  [TelemetryStream]
         sensorType:  SensorType
-    addDevice(
-            deviceId: String
-            serialNumber: String
-            lastSeen: String
-            firmwareVersion: String
-            Status:  DeviceStatus
-            PowerSource:  PowerSource
-    ): SensorInstance
+
     getDevice( parentId: ID! ): SensorInstance
     assignDevice( parentId: ID!, childId: ID! ): Boolean!
-    unassignDevice( parentId: ID!, childId: ID! ): Boolean!    getTelemetryStreams( parentId: ID! ): [TelemetryStream]!
+    unassignDevice( parentId: ID!, childId: ID! ): Boolean!
+    getTelemetryStreams( parentId: ID! ): [TelemetryStream]!
     addToTelemetryStreams( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromTelemetryStreams( parentId: ID!, childIds: [ID]! ): Boolean!
 
@@ -1096,17 +1168,11 @@ id: ID!
         device: IoTDevice
         supportedCommands:  [CommandDefinition]
         actuatorType:  ActuatorType
-    addDevice(
-            deviceId: String
-            serialNumber: String
-            lastSeen: String
-            firmwareVersion: String
-            Status:  DeviceStatus
-            PowerSource:  PowerSource
-    ): ActuatorInstance
+
     getDevice( parentId: ID! ): ActuatorInstance
     assignDevice( parentId: ID!, childId: ID! ): Boolean!
-    unassignDevice( parentId: ID!, childId: ID! ): Boolean!    getSupportedCommands( parentId: ID! ): [CommandDefinition]!
+    unassignDevice( parentId: ID!, childId: ID! ): Boolean!
+    getSupportedCommands( parentId: ID! ): [CommandDefinition]!
     addToSupportedCommands( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromSupportedCommands( parentId: ID!, childIds: [ID]! ): Boolean!
 
@@ -1127,6 +1193,7 @@ id: ID!
         schemaUri: String
         streams:  [TelemetryStream]
         encoding:  TelemetryEncoding
+
     getStreams( parentId: ID! ): [TelemetryStream]!
     addToStreams( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromStreams( parentId: ID!, childIds: [ID]! ): Boolean!
@@ -1152,43 +1219,19 @@ id: ID!
         messagingEndpoint: MessagingEndpoint
         retentionPolicy: DataRetentionPolicy
         qos:  MessageQoS
-    addDevice(
-            deviceId: String
-            serialNumber: String
-            lastSeen: String
-            firmwareVersion: String
-            Status:  DeviceStatus
-            PowerSource:  PowerSource
-    ): TelemetryStream
+
     getDevice( parentId: ID! ): TelemetryStream
     assignDevice( parentId: ID!, childId: ID! ): Boolean!
-    unassignDevice( parentId: ID!, childId: ID! ): Boolean!    addSensor(
-            name: String
-            unit: String
-            samplingIntervalMs: Int
-            SensorType:  SensorType
-    ): TelemetryStream
+    unassignDevice( parentId: ID!, childId: ID! ): Boolean!
     getSensor( parentId: ID! ): TelemetryStream
     assignSensor( parentId: ID!, childId: ID! ): Boolean!
-    unassignSensor( parentId: ID!, childId: ID! ): Boolean!    addSchema(
-            schemaId: String
-            schemaUri: String
-            Encoding:  TelemetryEncoding
-    ): TelemetryStream
+    unassignSensor( parentId: ID!, childId: ID! ): Boolean!
     getSchema( parentId: ID! ): TelemetryStream
     assignSchema( parentId: ID!, childId: ID! ): Boolean!
-    unassignSchema( parentId: ID!, childId: ID! ): Boolean!    addMessagingEndpoint(
-            host: String
-            port: Int
-            secure: Boolean
-            Protocol:  MessagingProtocol
-    ): TelemetryStream
+    unassignSchema( parentId: ID!, childId: ID! ): Boolean!
     getMessagingEndpoint( parentId: ID! ): TelemetryStream
     assignMessagingEndpoint( parentId: ID!, childId: ID! ): Boolean!
-    unassignMessagingEndpoint( parentId: ID!, childId: ID! ): Boolean!    addRetentionPolicy(
-            name: String
-            retentionDays: Int
-    ): TelemetryStream
+    unassignMessagingEndpoint( parentId: ID!, childId: ID! ): Boolean!
     getRetentionPolicy( parentId: ID! ): TelemetryStream
     assignRetentionPolicy( parentId: ID!, childId: ID! ): Boolean!
     unassignRetentionPolicy( parentId: ID!, childId: ID! ): Boolean!
@@ -1212,18 +1255,14 @@ id: ID!
         deviceModel: DeviceModel
         actuators:  [ActuatorInstance]
         commandInvocations:  [CommandInvocation]
-    addDeviceModel(
-            name: String
-            modelNumber: String
-            hardwareRevision: String
-            SupportedConnectivity:  ConnectivityType
-            DefaultTelemetryEncoding:  TelemetryEncoding
-    ): CommandDefinition
+
     getDeviceModel( parentId: ID! ): CommandDefinition
     assignDeviceModel( parentId: ID!, childId: ID! ): Boolean!
-    unassignDeviceModel( parentId: ID!, childId: ID! ): Boolean!    getActuators( parentId: ID! ): [ActuatorInstance]!
+    unassignDeviceModel( parentId: ID!, childId: ID! ): Boolean!
+    getActuators( parentId: ID! ): [ActuatorInstance]!
     addToActuators( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromActuators( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getCommandInvocations( parentId: ID! ): [CommandInvocation]!
     addToCommandInvocations( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromCommandInvocations( parentId: ID!, childIds: [ID]! ): Boolean!
@@ -1249,37 +1288,16 @@ id: ID!
         actuator: ActuatorInstance
         user: TenantUser
         status:  CommandStatus
-    addDevice(
-            deviceId: String
-            serialNumber: String
-            lastSeen: String
-            firmwareVersion: String
-            Status:  DeviceStatus
-            PowerSource:  PowerSource
-    ): CommandInvocation
+
     getDevice( parentId: ID! ): CommandInvocation
     assignDevice( parentId: ID!, childId: ID! ): Boolean!
-    unassignDevice( parentId: ID!, childId: ID! ): Boolean!    addCommandDefinition(
-            name: String
-            requestSchemaUri: String
-            responseSchemaUri: String
-            timeoutSeconds: Int
-    ): CommandInvocation
+    unassignDevice( parentId: ID!, childId: ID! ): Boolean!
     getCommandDefinition( parentId: ID! ): CommandInvocation
     assignCommandDefinition( parentId: ID!, childId: ID! ): Boolean!
-    unassignCommandDefinition( parentId: ID!, childId: ID! ): Boolean!    addActuator(
-            name: String
-            commandTopic: String
-            ActuatorType:  ActuatorType
-    ): CommandInvocation
+    unassignCommandDefinition( parentId: ID!, childId: ID! ): Boolean!
     getActuator( parentId: ID! ): CommandInvocation
     assignActuator( parentId: ID!, childId: ID! ): Boolean!
-    unassignActuator( parentId: ID!, childId: ID! ): Boolean!    addUser(
-            firstName: String
-            lastName: String
-            email: String
-            Role:  UserRole
-    ): CommandInvocation
+    unassignActuator( parentId: ID!, childId: ID! ): Boolean!
     getUser( parentId: ID! ): CommandInvocation
     assignUser( parentId: ID!, childId: ID! ): Boolean!
     unassignUser( parentId: ID!, childId: ID! ): Boolean!
@@ -1302,15 +1320,14 @@ id: ID!
         streams:  [TelemetryStream]
         alerts:  [Alert]
         severity:  AlertSeverity
-    addTenant(
-            name: String
-            TenantType:  TenantType
-    ): AlertRule
+
     getTenant( parentId: ID! ): AlertRule
     assignTenant( parentId: ID!, childId: ID! ): Boolean!
-    unassignTenant( parentId: ID!, childId: ID! ): Boolean!    getStreams( parentId: ID! ): [TelemetryStream]!
+    unassignTenant( parentId: ID!, childId: ID! ): Boolean!
+    getStreams( parentId: ID! ): [TelemetryStream]!
     addToStreams( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromStreams( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getAlerts( parentId: ID! ): [Alert]!
     addToAlerts( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromAlerts( parentId: ID!, childIds: [ID]! ): Boolean!
@@ -1334,21 +1351,10 @@ id: ID!
         device: IoTDevice
         alertRule: AlertRule
         status:  AlertStatus
-    addDevice(
-            deviceId: String
-            serialNumber: String
-            lastSeen: String
-            firmwareVersion: String
-            Status:  DeviceStatus
-            PowerSource:  PowerSource
-    ): Alert
+
     getDevice( parentId: ID! ): Alert
     assignDevice( parentId: ID!, childId: ID! ): Boolean!
-    unassignDevice( parentId: ID!, childId: ID! ): Boolean!    addAlertRule(
-            name: String
-            expression: String
-            Severity:  AlertSeverity
-    ): Alert
+    unassignDevice( parentId: ID!, childId: ID! ): Boolean!
     getAlertRule( parentId: ID! ): Alert
     assignAlertRule( parentId: ID!, childId: ID! ): Boolean!
     unassignAlertRule( parentId: ID!, childId: ID! ): Boolean!
@@ -1379,39 +1385,51 @@ id: ID!
         maintenanceTickets:  [MaintenanceTicket]
         usageRecords:  [UsageRecord]
         tenantType:  TenantType
+
     getSites( parentId: ID! ): [Site]!
     addToSites( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromSites( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getUsers( parentId: ID! ): [TenantUser]!
     addToUsers( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromUsers( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getDevices( parentId: ID! ): [IoTDevice]!
     addToDevices( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromDevices( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getDataRetentionPolicies( parentId: ID! ): [DataRetentionPolicy]!
     addToDataRetentionPolicies( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromDataRetentionPolicies( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getConnectivityPlans( parentId: ID! ): [ConnectivityPlan]!
     addToConnectivityPlans( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromConnectivityPlans( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getSimCards( parentId: ID! ): [SimCard]!
     addToSimCards( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromSimCards( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getMessagingEndpoints( parentId: ID! ): [MessagingEndpoint]!
     addToMessagingEndpoints( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromMessagingEndpoints( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getAccessPolicies( parentId: ID! ): [AccessPolicy]!
     addToAccessPolicies( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromAccessPolicies( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getDeviceGroups( parentId: ID! ): [DeviceGroup]!
     addToDeviceGroups( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromDeviceGroups( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getAlertRules( parentId: ID! ): [AlertRule]!
     addToAlertRules( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromAlertRules( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getMaintenanceTickets( parentId: ID! ): [MaintenanceTicket]!
     addToMaintenanceTickets( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromMaintenanceTickets( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getUsageRecords( parentId: ID! ): [UsageRecord]!
     addToUsageRecords( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromUsageRecords( parentId: ID!, childIds: [ID]! ): Boolean!
@@ -1435,13 +1453,11 @@ id: ID!
         tenant: Tenant
         commandInvocations:  [CommandInvocation]
         role:  UserRole
-    addTenant(
-            name: String
-            TenantType:  TenantType
-    ): TenantUser
+
     getTenant( parentId: ID! ): TenantUser
     assignTenant( parentId: ID!, childId: ID! ): Boolean!
-    unassignTenant( parentId: ID!, childId: ID! ): Boolean!    getCommandInvocations( parentId: ID! ): [CommandInvocation]!
+    unassignTenant( parentId: ID!, childId: ID! ): Boolean!
+    getCommandInvocations( parentId: ID! ): [CommandInvocation]!
     addToCommandInvocations( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromCommandInvocations( parentId: ID!, childIds: [ID]! ): Boolean!
 
@@ -1467,18 +1483,18 @@ id: ID!
         buildings:  [Building]
         devices:  [IoTDevice]
         gateways:  [Gateway]
-    addTenant(
-            name: String
-            TenantType:  TenantType
-    ): Site
+
     getTenant( parentId: ID! ): Site
     assignTenant( parentId: ID!, childId: ID! ): Boolean!
-    unassignTenant( parentId: ID!, childId: ID! ): Boolean!    getBuildings( parentId: ID! ): [Building]!
+    unassignTenant( parentId: ID!, childId: ID! ): Boolean!
+    getBuildings( parentId: ID! ): [Building]!
     addToBuildings( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromBuildings( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getDevices( parentId: ID! ): [IoTDevice]!
     addToDevices( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromDevices( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getGateways( parentId: ID! ): [Gateway]!
     addToGateways( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromGateways( parentId: ID!, childIds: [ID]! ): Boolean!
@@ -1499,16 +1515,11 @@ id: ID!
         name: String
         site: Site
         floors:  [Floor]
-    addSite(
-            name: String
-            address: String
-            timezone: String
-            latitude: String
-            longitude: String
-    ): Building
+
     getSite( parentId: ID! ): Building
     assignSite( parentId: ID!, childId: ID! ): Boolean!
-    unassignSite( parentId: ID!, childId: ID! ): Boolean!    getFloors( parentId: ID! ): [Floor]!
+    unassignSite( parentId: ID!, childId: ID! ): Boolean!
+    getFloors( parentId: ID! ): [Floor]!
     addToFloors( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromFloors( parentId: ID!, childIds: [ID]! ): Boolean!
 
@@ -1529,12 +1540,11 @@ id: ID!
         level: Int
         building: Building
         rooms:  [Room]
-    addBuilding(
-            name: String
-    ): Floor
+
     getBuilding( parentId: ID! ): Floor
     assignBuilding( parentId: ID!, childId: ID! ): Boolean!
-    unassignBuilding( parentId: ID!, childId: ID! ): Boolean!    getRooms( parentId: ID! ): [Room]!
+    unassignBuilding( parentId: ID!, childId: ID! ): Boolean!
+    getRooms( parentId: ID! ): [Room]!
     addToRooms( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromRooms( parentId: ID!, childIds: [ID]! ): Boolean!
 
@@ -1555,15 +1565,14 @@ id: ID!
         floor: Floor
         devices:  [IoTDevice]
         gateways:  [Gateway]
-    addFloor(
-            name: String
-            level: Int
-    ): Room
+
     getFloor( parentId: ID! ): Room
     assignFloor( parentId: ID!, childId: ID! ): Boolean!
-    unassignFloor( parentId: ID!, childId: ID! ): Boolean!    getDevices( parentId: ID! ): [IoTDevice]!
+    unassignFloor( parentId: ID!, childId: ID! ): Boolean!
+    getDevices( parentId: ID! ): [IoTDevice]!
     addToDevices( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromDevices( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getGateways( parentId: ID! ): [Gateway]!
     addToGateways( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromGateways( parentId: ID!, childIds: [ID]! ): Boolean!
@@ -1590,37 +1599,28 @@ id: ID!
         digitalTwin: DigitalTwin
         networkProfiles:  [NetworkProfile]
         status:  DeviceStatus
-    addSite(
-            name: String
-            address: String
-            timezone: String
-            latitude: String
-            longitude: String
-    ): Gateway
+
     getSite( parentId: ID! ): Gateway
     assignSite( parentId: ID!, childId: ID! ): Boolean!
-    unassignSite( parentId: ID!, childId: ID! ): Boolean!    addRoom(
-            name: String
-    ): Gateway
+    unassignSite( parentId: ID!, childId: ID! ): Boolean!
     getRoom( parentId: ID! ): Gateway
     assignRoom( parentId: ID!, childId: ID! ): Boolean!
-    unassignRoom( parentId: ID!, childId: ID! ): Boolean!    addDigitalTwin(
-            twinId: String
-            desiredStateVersion: Int
-            reportedStateVersion: Int
-            lastSyncAt: String
-    ): Gateway
+    unassignRoom( parentId: ID!, childId: ID! ): Boolean!
     getDigitalTwin( parentId: ID! ): Gateway
     assignDigitalTwin( parentId: ID!, childId: ID! ): Boolean!
-    unassignDigitalTwin( parentId: ID!, childId: ID! ): Boolean!    getDevices( parentId: ID! ): [IoTDevice]!
+    unassignDigitalTwin( parentId: ID!, childId: ID! ): Boolean!
+    getDevices( parentId: ID! ): [IoTDevice]!
     addToDevices( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromDevices( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getEdgeApplications( parentId: ID! ): [EdgeApplication]!
     addToEdgeApplications( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromEdgeApplications( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getCertificates( parentId: ID! ): [DeviceCertificate]!
     addToCertificates( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromCertificates( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getNetworkProfiles( parentId: ID! ): [NetworkProfile]!
     addToNetworkProfiles( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromNetworkProfiles( parentId: ID!, childIds: [ID]! ): Boolean!
@@ -1643,10 +1643,7 @@ id: ID!
         image: String
         gateway: Gateway
         status:  DeploymentStatus
-    addGateway(
-            softwareVersion: String
-            Status:  DeviceStatus
-    ): EdgeApplication
+
     getGateway( parentId: ID! ): EdgeApplication
     assignGateway( parentId: ID!, childId: ID! ): Boolean!
     unassignGateway( parentId: ID!, childId: ID! ): Boolean!
@@ -1670,28 +1667,13 @@ id: ID!
         gateway: Gateway
         simCard: SimCard
         connectivityType:  ConnectivityType
-    addDevice(
-            deviceId: String
-            serialNumber: String
-            lastSeen: String
-            firmwareVersion: String
-            Status:  DeviceStatus
-            PowerSource:  PowerSource
-    ): NetworkProfile
+
     getDevice( parentId: ID! ): NetworkProfile
     assignDevice( parentId: ID!, childId: ID! ): Boolean!
-    unassignDevice( parentId: ID!, childId: ID! ): Boolean!    addGateway(
-            softwareVersion: String
-            Status:  DeviceStatus
-    ): NetworkProfile
+    unassignDevice( parentId: ID!, childId: ID! ): Boolean!
     getGateway( parentId: ID! ): NetworkProfile
     assignGateway( parentId: ID!, childId: ID! ): Boolean!
-    unassignGateway( parentId: ID!, childId: ID! ): Boolean!    addSimCard(
-            iccid: String
-            imsi: String
-            carrier: String
-            Status:  SimStatus
-    ): NetworkProfile
+    unassignGateway( parentId: ID!, childId: ID! ): Boolean!
     getSimCard( parentId: ID! ): NetworkProfile
     assignSimCard( parentId: ID!, childId: ID! ): Boolean!
     unassignSimCard( parentId: ID!, childId: ID! ): Boolean!
@@ -1715,20 +1697,14 @@ id: ID!
         tenant: Tenant
         connectivityPlan: ConnectivityPlan
         status:  SimStatus
-    addTenant(
-            name: String
-            TenantType:  TenantType
-    ): SimCard
+
     getTenant( parentId: ID! ): SimCard
     assignTenant( parentId: ID!, childId: ID! ): Boolean!
-    unassignTenant( parentId: ID!, childId: ID! ): Boolean!    addConnectivityPlan(
-            name: String
-            dataCapMB: Int
-            billingCycleDays: Int
-    ): SimCard
+    unassignTenant( parentId: ID!, childId: ID! ): Boolean!
     getConnectivityPlan( parentId: ID! ): SimCard
     assignConnectivityPlan( parentId: ID!, childId: ID! ): Boolean!
-    unassignConnectivityPlan( parentId: ID!, childId: ID! ): Boolean!    getNetworkProfiles( parentId: ID! ): [NetworkProfile]!
+    unassignConnectivityPlan( parentId: ID!, childId: ID! ): Boolean!
+    getNetworkProfiles( parentId: ID! ): [NetworkProfile]!
     addToNetworkProfiles( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromNetworkProfiles( parentId: ID!, childIds: [ID]! ): Boolean!
 
@@ -1750,13 +1726,11 @@ id: ID!
         billingCycleDays: Int
         simCards:  [SimCard]
         tenant: Tenant
-    addTenant(
-            name: String
-            TenantType:  TenantType
-    ): ConnectivityPlan
+
     getTenant( parentId: ID! ): ConnectivityPlan
     assignTenant( parentId: ID!, childId: ID! ): Boolean!
-    unassignTenant( parentId: ID!, childId: ID! ): Boolean!    getSimCards( parentId: ID! ): [SimCard]!
+    unassignTenant( parentId: ID!, childId: ID! ): Boolean!
+    getSimCards( parentId: ID! ): [SimCard]!
     addToSimCards( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromSimCards( parentId: ID!, childIds: [ID]! ): Boolean!
 
@@ -1779,13 +1753,11 @@ id: ID!
         tenant: Tenant
         streams:  [TelemetryStream]
         protocol:  MessagingProtocol
-    addTenant(
-            name: String
-            TenantType:  TenantType
-    ): MessagingEndpoint
+
     getTenant( parentId: ID! ): MessagingEndpoint
     assignTenant( parentId: ID!, childId: ID! ): Boolean!
-    unassignTenant( parentId: ID!, childId: ID! ): Boolean!    getStreams( parentId: ID! ): [TelemetryStream]!
+    unassignTenant( parentId: ID!, childId: ID! ): Boolean!
+    getStreams( parentId: ID! ): [TelemetryStream]!
     addToStreams( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromStreams( parentId: ID!, childIds: [ID]! ): Boolean!
 
@@ -1808,15 +1780,14 @@ id: ID!
         tenant: Tenant
         apiKeys:  [ApiKey]
         users:  [TenantUser]
-    addTenant(
-            name: String
-            TenantType:  TenantType
-    ): AccessPolicy
+
     getTenant( parentId: ID! ): AccessPolicy
     assignTenant( parentId: ID!, childId: ID! ): Boolean!
-    unassignTenant( parentId: ID!, childId: ID! ): Boolean!    getApiKeys( parentId: ID! ): [ApiKey]!
+    unassignTenant( parentId: ID!, childId: ID! ): Boolean!
+    getApiKeys( parentId: ID! ): [ApiKey]!
     addToApiKeys( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromApiKeys( parentId: ID!, childIds: [ID]! ): Boolean!
+
     getUsers( parentId: ID! ): [TenantUser]!
     addToUsers( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromUsers( parentId: ID!, childIds: [ID]! ): Boolean!
@@ -1839,11 +1810,7 @@ id: ID!
         createdAt: String
         lastUsedAt: String
         accessPolicy: AccessPolicy
-    addAccessPolicy(
-            name: String
-            scope: String
-            expiresAt: String
-    ): ApiKey
+
     getAccessPolicy( parentId: ID! ): ApiKey
     assignAccessPolicy( parentId: ID!, childId: ID! ): Boolean!
     unassignAccessPolicy( parentId: ID!, childId: ID! ): Boolean!
@@ -1867,20 +1834,10 @@ id: ID!
         device: IoTDevice
         gateway: Gateway
         certificateType:  CertificateType
-    addDevice(
-            deviceId: String
-            serialNumber: String
-            lastSeen: String
-            firmwareVersion: String
-            Status:  DeviceStatus
-            PowerSource:  PowerSource
-    ): DeviceCertificate
+
     getDevice( parentId: ID! ): DeviceCertificate
     assignDevice( parentId: ID!, childId: ID! ): Boolean!
-    unassignDevice( parentId: ID!, childId: ID! ): Boolean!    addGateway(
-            softwareVersion: String
-            Status:  DeviceStatus
-    ): DeviceCertificate
+    unassignDevice( parentId: ID!, childId: ID! ): Boolean!
     getGateway( parentId: ID! ): DeviceCertificate
     assignGateway( parentId: ID!, childId: ID! ): Boolean!
     unassignGateway( parentId: ID!, childId: ID! ): Boolean!
@@ -1904,29 +1861,13 @@ id: ID!
         tenant: Tenant
         method:  ProvisioningMethod
         status:  ProvisioningStatus
-    addDevice(
-            deviceId: String
-            serialNumber: String
-            lastSeen: String
-            firmwareVersion: String
-            Status:  DeviceStatus
-            PowerSource:  PowerSource
-    ): ProvisioningRecord
+
     getDevice( parentId: ID! ): ProvisioningRecord
     assignDevice( parentId: ID!, childId: ID! ): Boolean!
-    unassignDevice( parentId: ID!, childId: ID! ): Boolean!    addCertificate(
-            serialNumber: String
-            notBefore: String
-            notAfter: String
-            fingerprint: String
-            CertificateType:  CertificateType
-    ): ProvisioningRecord
+    unassignDevice( parentId: ID!, childId: ID! ): Boolean!
     getCertificate( parentId: ID! ): ProvisioningRecord
     assignCertificate( parentId: ID!, childId: ID! ): Boolean!
-    unassignCertificate( parentId: ID!, childId: ID! ): Boolean!    addTenant(
-            name: String
-            TenantType:  TenantType
-    ): ProvisioningRecord
+    unassignCertificate( parentId: ID!, childId: ID! ): Boolean!
     getTenant( parentId: ID! ): ProvisioningRecord
     assignTenant( parentId: ID!, childId: ID! ): Boolean!
     unassignTenant( parentId: ID!, childId: ID! ): Boolean!
@@ -1951,30 +1892,17 @@ id: ID!
         gateway: Gateway
         template: TwinTemplate
         changeEvents:  [TwinChangeEvent]
-    addDevice(
-            deviceId: String
-            serialNumber: String
-            lastSeen: String
-            firmwareVersion: String
-            Status:  DeviceStatus
-            PowerSource:  PowerSource
-    ): DigitalTwin
+
     getDevice( parentId: ID! ): DigitalTwin
     assignDevice( parentId: ID!, childId: ID! ): Boolean!
-    unassignDevice( parentId: ID!, childId: ID! ): Boolean!    addGateway(
-            softwareVersion: String
-            Status:  DeviceStatus
-    ): DigitalTwin
+    unassignDevice( parentId: ID!, childId: ID! ): Boolean!
     getGateway( parentId: ID! ): DigitalTwin
     assignGateway( parentId: ID!, childId: ID! ): Boolean!
-    unassignGateway( parentId: ID!, childId: ID! ): Boolean!    addTemplate(
-            name: String
-            schemaUri: String
-            version: String
-    ): DigitalTwin
+    unassignGateway( parentId: ID!, childId: ID! ): Boolean!
     getTemplate( parentId: ID! ): DigitalTwin
     assignTemplate( parentId: ID!, childId: ID! ): Boolean!
-    unassignTemplate( parentId: ID!, childId: ID! ): Boolean!    getChangeEvents( parentId: ID! ): [TwinChangeEvent]!
+    unassignTemplate( parentId: ID!, childId: ID! ): Boolean!
+    getChangeEvents( parentId: ID! ): [TwinChangeEvent]!
     addToChangeEvents( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromChangeEvents( parentId: ID!, childIds: [ID]! ): Boolean!
 
@@ -1995,6 +1923,7 @@ id: ID!
         schemaUri: String
         version: String
         deviceModels:  [DeviceModel]
+
     getDeviceModels( parentId: ID! ): [DeviceModel]!
     addToDeviceModels( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromDeviceModels( parentId: ID!, childIds: [ID]! ): Boolean!
@@ -2016,12 +1945,7 @@ id: ID!
         occurredAt: String
         twin: DigitalTwin
         changeType:  TwinChangeType
-    addTwin(
-            twinId: String
-            desiredStateVersion: Int
-            reportedStateVersion: Int
-            lastSyncAt: String
-    ): TwinChangeEvent
+
     getTwin( parentId: ID! ): TwinChangeEvent
     assignTwin( parentId: ID!, childId: ID! ): Boolean!
     unassignTwin( parentId: ID!, childId: ID! ): Boolean!
@@ -2045,20 +1969,10 @@ id: ID!
         tenant: Tenant
         priority:  MaintenancePriority
         status:  MaintenanceStatus
-    addDevice(
-            deviceId: String
-            serialNumber: String
-            lastSeen: String
-            firmwareVersion: String
-            Status:  DeviceStatus
-            PowerSource:  PowerSource
-    ): MaintenanceTicket
+
     getDevice( parentId: ID! ): MaintenanceTicket
     assignDevice( parentId: ID!, childId: ID! ): Boolean!
-    unassignDevice( parentId: ID!, childId: ID! ): Boolean!    addTenant(
-            name: String
-            TenantType:  TenantType
-    ): MaintenanceTicket
+    unassignDevice( parentId: ID!, childId: ID! ): Boolean!
     getTenant( parentId: ID! ): MaintenanceTicket
     assignTenant( parentId: ID!, childId: ID! ): Boolean!
     unassignTenant( parentId: ID!, childId: ID! ): Boolean!
@@ -2079,13 +1993,11 @@ id: ID!
         retentionDays: Int
         tenant: Tenant
         streams:  [TelemetryStream]
-    addTenant(
-            name: String
-            TenantType:  TenantType
-    ): DataRetentionPolicy
+
     getTenant( parentId: ID! ): DataRetentionPolicy
     assignTenant( parentId: ID!, childId: ID! ): Boolean!
-    unassignTenant( parentId: ID!, childId: ID! ): Boolean!    getStreams( parentId: ID! ): [TelemetryStream]!
+    unassignTenant( parentId: ID!, childId: ID! ): Boolean!
+    getStreams( parentId: ID! ): [TelemetryStream]!
     addToStreams( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromStreams( parentId: ID!, childIds: [ID]! ): Boolean!
 
@@ -2109,21 +2021,14 @@ id: ID!
         deviceGroup: DeviceGroup
         executions:  [SoftwareUpdateExecution]
         status:  UpdateCampaignStatus
-    addFirmwareRelease(
-            version: String
-            releaseDate: String
-            releaseNotes: String
-            checksum: String
-    ): SoftwareUpdateCampaign
+
     getFirmwareRelease( parentId: ID! ): SoftwareUpdateCampaign
     assignFirmwareRelease( parentId: ID!, childId: ID! ): Boolean!
-    unassignFirmwareRelease( parentId: ID!, childId: ID! ): Boolean!    addDeviceGroup(
-            name: String
-            criteria: String
-    ): SoftwareUpdateCampaign
+    unassignFirmwareRelease( parentId: ID!, childId: ID! ): Boolean!
     getDeviceGroup( parentId: ID! ): SoftwareUpdateCampaign
     assignDeviceGroup( parentId: ID!, childId: ID! ): Boolean!
-    unassignDeviceGroup( parentId: ID!, childId: ID! ): Boolean!    getExecutions( parentId: ID! ): [SoftwareUpdateExecution]!
+    unassignDeviceGroup( parentId: ID!, childId: ID! ): Boolean!
+    getExecutions( parentId: ID! ): [SoftwareUpdateExecution]!
     addToExecutions( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromExecutions( parentId: ID!, childIds: [ID]! ): Boolean!
 
@@ -2145,22 +2050,10 @@ id: ID!
         campaign: SoftwareUpdateCampaign
         device: IoTDevice
         status:  UpdateStatus
-    addCampaign(
-            campaignCode: String
-            scheduledStart: String
-            scheduledEnd: String
-            Status:  UpdateCampaignStatus
-    ): SoftwareUpdateExecution
+
     getCampaign( parentId: ID! ): SoftwareUpdateExecution
     assignCampaign( parentId: ID!, childId: ID! ): Boolean!
-    unassignCampaign( parentId: ID!, childId: ID! ): Boolean!    addDevice(
-            deviceId: String
-            serialNumber: String
-            lastSeen: String
-            firmwareVersion: String
-            Status:  DeviceStatus
-            PowerSource:  PowerSource
-    ): SoftwareUpdateExecution
+    unassignCampaign( parentId: ID!, childId: ID! ): Boolean!
     getDevice( parentId: ID! ): SoftwareUpdateExecution
     assignDevice( parentId: ID!, childId: ID! ): Boolean!
     unassignDevice( parentId: ID!, childId: ID! ): Boolean!
@@ -2181,13 +2074,11 @@ id: ID!
         criteria: String
         tenant: Tenant
         devices:  [IoTDevice]
-    addTenant(
-            name: String
-            TenantType:  TenantType
-    ): DeviceGroup
+
     getTenant( parentId: ID! ): DeviceGroup
     assignTenant( parentId: ID!, childId: ID! ): Boolean!
-    unassignTenant( parentId: ID!, childId: ID! ): Boolean!    getDevices( parentId: ID! ): [IoTDevice]!
+    unassignTenant( parentId: ID!, childId: ID! ): Boolean!
+    getDevices( parentId: ID! ): [IoTDevice]!
     addToDevices( parentId: ID!, childIds: [ID]! ): Boolean!
     removeFromDevices( parentId: ID!, childIds: [ID]! ): Boolean!
 
@@ -2211,27 +2102,13 @@ id: ID!
         tenant: Tenant
         device: IoTDevice
         connectivityPlan: ConnectivityPlan
-    addTenant(
-            name: String
-            TenantType:  TenantType
-    ): UsageRecord
+
     getTenant( parentId: ID! ): UsageRecord
     assignTenant( parentId: ID!, childId: ID! ): Boolean!
-    unassignTenant( parentId: ID!, childId: ID! ): Boolean!    addDevice(
-            deviceId: String
-            serialNumber: String
-            lastSeen: String
-            firmwareVersion: String
-            Status:  DeviceStatus
-            PowerSource:  PowerSource
-    ): UsageRecord
+    unassignTenant( parentId: ID!, childId: ID! ): Boolean!
     getDevice( parentId: ID! ): UsageRecord
     assignDevice( parentId: ID!, childId: ID! ): Boolean!
-    unassignDevice( parentId: ID!, childId: ID! ): Boolean!    addConnectivityPlan(
-            name: String
-            dataCapMB: Int
-            billingCycleDays: Int
-    ): UsageRecord
+    unassignDevice( parentId: ID!, childId: ID! ): Boolean!
     getConnectivityPlan( parentId: ID! ): UsageRecord
     assignConnectivityPlan( parentId: ID!, childId: ID! ): Boolean!
     unassignConnectivityPlan( parentId: ID!, childId: ID! ): Boolean!
@@ -2248,282 +2125,312 @@ hasMore: Boolean!
 # ConnectivityType
 # -----------------------------------------
 enum ConnectivityType {
-                WiFi
-            Ethernet
-            LTE
-            FiveG
-            NBIoT
-            LoRaWAN
-            Zigbee
-            BLE
-            Satellite
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        WiFi
+        Ethernet
+        LTE
+        FiveG
+        NBIoT
+        LoRaWAN
+        Zigbee
+        BLE
+        Satellite
+}
 # -----------------------------------------
 # DeviceStatus
 # -----------------------------------------
 enum DeviceStatus {
-                Provisioning
-            Active
-            Suspended
-            Offline
-            Decommissioned
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        Provisioning
+        Active
+        Suspended
+        Offline
+        Decommissioned
+}
 # -----------------------------------------
 # TelemetryEncoding
 # -----------------------------------------
 enum TelemetryEncoding {
-                JSON
-            CBOR
-            Protobuf
-            Avro
-            Binary
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        JSON
+        CBOR
+        Protobuf
+        Avro
+        Binary
+}
 # -----------------------------------------
 # MessageQoS
 # -----------------------------------------
 enum MessageQoS {
-                AtMostOnce
-            AtLeastOnce
-            ExactlyOnce
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        AtMostOnce
+        AtLeastOnce
+        ExactlyOnce
+}
 # -----------------------------------------
 # CertificateType
 # -----------------------------------------
 enum CertificateType {
-                X509
-            X509_CA
-            X509_SelfSigned
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        X509
+        X509_CA
+        X509_SelfSigned
+}
 # -----------------------------------------
 # ProvisioningMethod
 # -----------------------------------------
 enum ProvisioningMethod {
-                Manual
-            JITP
-            JITR
-            Bulk
-            ZeroTouch
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        Manual
+        JITP
+        JITR
+        Bulk
+        ZeroTouch
+}
 # -----------------------------------------
 # ProvisioningStatus
 # -----------------------------------------
 enum ProvisioningStatus {
-                Pending
-            Enrolled
-            Failed
-            Revoked
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        Pending
+        Enrolled
+        Failed
+        Revoked
+}
 # -----------------------------------------
 # SensorType
 # -----------------------------------------
 enum SensorType {
-                Temperature
-            Humidity
-            Pressure
-            Accelerometer
-            Gyroscope
-            GPS
-            Light
-            CO2
-            VOC
-            Current
-            Voltage
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        Temperature
+        Humidity
+        Pressure
+        Accelerometer
+        Gyroscope
+        GPS
+        Light
+        CO2
+        VOC
+        Current
+        Voltage
+}
 # -----------------------------------------
 # ActuatorType
 # -----------------------------------------
 enum ActuatorType {
-                Relay
-            Motor
-            Valve
-            LED
-            Buzzer
-            Display
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        Relay
+        Motor
+        Valve
+        LED
+        Buzzer
+        Display
+}
 # -----------------------------------------
 # AlertSeverity
 # -----------------------------------------
 enum AlertSeverity {
-                Info
-            Warning
-            Critical
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        Info
+        Warning
+        Critical
+}
 # -----------------------------------------
 # AlertStatus
 # -----------------------------------------
 enum AlertStatus {
-                Open
-            Acknowledged
-            Resolved
-            Suppressed
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        Open
+        Acknowledged
+        Resolved
+        Suppressed
+}
 # -----------------------------------------
 # UserRole
 # -----------------------------------------
 enum UserRole {
-                Admin
-            Operator
-            Viewer
-            Integrator
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        Admin
+        Operator
+        Viewer
+        Integrator
+}
 # -----------------------------------------
 # TenantType
 # -----------------------------------------
 enum TenantType {
-                Enterprise
-            SMB
-            ISV
-            SystemIntegrator
-            Government
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        Enterprise
+        SMB
+        ISV
+        SystemIntegrator
+        Government
+}
 # -----------------------------------------
 # MessagingProtocol
 # -----------------------------------------
 enum MessagingProtocol {
-                MQTT
-            AMQP
-            HTTP
-            CoAP
-            WebSocket
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        MQTT
+        AMQP
+        HTTP
+        CoAP
+        WebSocket
+}
 # -----------------------------------------
 # SimStatus
 # -----------------------------------------
 enum SimStatus {
-                Active
-            Suspended
-            Retired
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        Active
+        Suspended
+        Retired
+}
 # -----------------------------------------
 # CommandStatus
 # -----------------------------------------
 enum CommandStatus {
-                Queued
-            Sent
-            Succeeded
-            Failed
-            TimedOut
-            Cancelled
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        Queued
+        Sent
+        Succeeded
+        Failed
+        TimedOut
+        Cancelled
+}
 # -----------------------------------------
 # UpdateCampaignStatus
 # -----------------------------------------
 enum UpdateCampaignStatus {
-                Planned
-            InProgress
-            Paused
-            Completed
-            Cancelled
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        Planned
+        InProgress
+        Paused
+        Completed
+        Cancelled
+}
 # -----------------------------------------
 # UpdateStatus
 # -----------------------------------------
 enum UpdateStatus {
-                Downloading
-            Installing
-            Rebooting
-            Success
-            Failure
-            Deferred
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        Downloading
+        Installing
+        Rebooting
+        Success
+        Failure
+        Deferred
+}
 # -----------------------------------------
 # TwinChangeType
 # -----------------------------------------
 enum TwinChangeType {
-                DesiredUpdated
-            ReportedUpdated
-            TagUpdated
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        DesiredUpdated
+        ReportedUpdated
+        TagUpdated
+}
 # -----------------------------------------
 # MaintenancePriority
 # -----------------------------------------
 enum MaintenancePriority {
-                Low
-            Medium
-            High
-            Urgent
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        Low
+        Medium
+        High
+        Urgent
+}
 # -----------------------------------------
 # MaintenanceStatus
 # -----------------------------------------
 enum MaintenanceStatus {
-                Open
-            InProgress
-            WaitingOnParts
-            Closed
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        Open
+        InProgress
+        WaitingOnParts
+        Closed
+}
 # -----------------------------------------
 # DeploymentStatus
 # -----------------------------------------
 enum DeploymentStatus {
-                Pending
-            Deploying
-            Running
-            Failed
-            Stopped
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        Pending
+        Deploying
+        Running
+        Failed
+        Stopped
+}
 # -----------------------------------------
 # PowerSource
 # -----------------------------------------
 enum PowerSource {
-                Battery
-            Mains
-            PoE
-            EnergyHarvesting
-            Solar
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        Battery
+        Mains
+        PoE
+        EnergyHarvesting
+        Solar
+}
 # -----------------------------------------
 # ModuleType
 # -----------------------------------------
 enum ModuleType {
-                RFModule
-            MCU
-            SensorChipset
-            PowerManagement
-            Storage
-            Other
-    }
+$generateAppStats.applyMetaDataTagWithCountWithCount( "Enum Design Pattern", "A fixed set of named values that represent the valid states, types, or choices for a domain concept.", $attributes.size() )
+        RFModule
+        MCU
+        SensorChipset
+        PowerManagement
+        Storage
+        Other
+}
 
 # -----------------------------------------
 # DeviceId
 # -----------------------------------------
 type DeviceId {
-                value: String
-    }
+
+        value: String
+}
 # -----------------------------------------
 # FirmwareVersion
 # -----------------------------------------
 type FirmwareVersion {
-                value: String
-    }
+
+        value: String
+}
 # -----------------------------------------
 # Address
 # -----------------------------------------
 type Address {
-                street: String
-            city: String
-            state: String
-            postalCode: String
-            country: String
-    }
+
+        street: String
+        city: String
+        state: String
+        postalCode: String
+        country: String
+}
 # -----------------------------------------
 # Uri
 # -----------------------------------------
 type Uri {
-                value: String
-    }
+
+        value: String
+}
 # -----------------------------------------
 # TopicName
 # -----------------------------------------
 type TopicName {
-                value: String
-    }
+
+        value: String
+}
 # -----------------------------------------
 # Checksum
 # -----------------------------------------
 type Checksum {
-                algorithm: String
-            value: String
-    }
+
+        algorithm: String
+        value: String
+}
 `;
 
